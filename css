@@ -1,0 +1,347 @@
+Computer Geeks.css
+*{
+    margin: 0;
+  
+}
+/* Style the top heading */
+.top{
+    background-color: #ffffff;
+    width: 100%;
+    height: 76px;
+    top: 0px;
+    border-radius: 0px;
+    box-shadow: 0px 4px 7px rgb(41 180 117 / 10%);
+    background: #ffffff;
+    z-index: 100;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+/* Style the dropdown content */
+#toptext nav a{
+    color: black;
+    padding-left: 40px;
+    font-size: 15px;
+    font-family: poppin2;
+    text-decoration: none;
+}
+/* Style the login sign up button */
+#button{
+    background-color: skyblue;
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: black;
+    font-size: 15px;
+    height: 42px;
+    font-weight: 600;
+    font-family: poppins2;
+    border-color: skyblue;;
+}
+/* Styling of Problem 1 and 2 heading */
+#bigtxt span{
+    font-size: 46px;
+    font-family: poppins;
+}
+/* Colouring of heading */
+#hd1{
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+}
+/* Colouring of heading */
+#hd2{
+    color:skyblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+}
+/* Colouring of problem part */
+#span{
+    color: black;
+    
+}
+/* Colouring of problem part */
+#span2{
+    color:skyblue;
+}
+/* Styling of whole Python program */
+#txt span{
+    font-size: clamp(15px,3vw,18px);
+    font-weight: 500;
+    line-height: 25px
+
+}
+/* Styling of whole Python program */
+#txt{
+    margin-top: 10px;
+    font-family: poppins2;
+}
+/* Styling of login sign up button on hover */
+#topbutton:hover {
+    opacity: 0.8;
+}
+/* Styling of see more button on hover */
+#button2:hover {
+    opacity: 0.8;
+}/* Styling of see more button on hover */
+#button3:hover {
+    opacity: 0.8;
+}
+/* Styling of search button on hover */
+.example:hover {
+    opacity: 0.8;
+}
+/* Styling of buttons */
+#button2{
+    background-color: skyblue;
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 15px;
+    height: 42px;
+    font-weight: 600;
+    margin-top: 10px;
+    font-family: poppins2;
+    border-color: skyblue;
+}
+/* Styling of buttons */
+.button3{
+    padding-left: 1038px;
+}
+/* Styling of search bar */
+#search-text-input{
+    border-top:thin solid  #e5e5e5;
+    border-right:thin solid #e5e5e5;
+    border-bottom:0;
+    border-left:thin solid  #e5e5e5;
+    box-shadow:0px 1px 1px 1px #e5e5e5;
+    float:left;
+    height:17px;
+    margin:.8em 0 0 .5em; 
+    outline:0;
+    padding:.4em 0 .4em .6em; 
+    width:183px; 
+}
+/* Styling of heading dropdown button */
+#button-holder{
+    background-color:#f1f1f1;
+    border-top:thin solid #e5e5e5;
+    box-shadow:1px 1px 1px 1px #e5e5e5;
+    cursor:pointer;
+    float:left;
+    height:27px;
+    margin:11px 0 0 0;
+    text-align:center;
+    width:50px;
+}
+/* Styling of heading dropdown button */
+#button-holder img{
+    margin:4px;
+    width:20px; 
+}
+/* Styling of problems on main page */
+.secondcolomain{
+    background: #e9f7f1;
+    padding-left: 149px;
+    height: 500px;
+
+}
+/* Styling of problems on main page */
+.secondmain{
+    height: 1px;
+    padding-top: 90px;
+}
+/* Styling of information part below */
+.lastmain{
+    background-color: #16252d;;
+    width: 100%;
+    height: 516px;
+    z-index: 0;
+    position: relative;
+}
+/* Telegram box styling */
+.become{
+    background-color:skyblue;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    width: 90%;
+    margin: 57px auto 0;
+    border-radius: 10px;
+    font-family: poppins2;
+    padding: 40px;
+    align-items: center;
+}
+/* Styling of logo at bottom */
+#infopara{
+    color: #e9f7f1;
+    font-size: 17px;
+    padding-top: 24px;
+    line-height: 25px;
+    font-family: poppins2;
+    cursor: pointer;
+}
+/* Styling of links */
+#data{
+    font-family: poppins2;
+    color: #ffff;
+    list-style: none;
+    line-height: 40px;
+    cursor: pointer;
+}
+/* Styling of information part below */
+.info{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+}
+/* Stying of heading */
+#heading111{
+    font-family: poppins2;
+    color: white;
+    list-style: none;
+    line-height: 40px;
+    font-weight: 700;
+    color: #ffff;
+}
+/* Styling of white background */
+.thirdmain{
+    background-color: #ffff;
+    width: 100%;
+    height: 1190px;
+    z-index: 1;
+    position: relative;
+}
+/* Designs the h1 tag */
+.h1{
+    text-align: center;
+    font-size: 32px;
+    font-family: poppins2;
+    margin-top: 40px;
+}
+/* Designs the h1 tag blue colour */
+.h1 a{
+    color:skyblue;
+}
+/* Designs the list of items */
+#ul li{
+    position: relative;
+    text-align: left;
+    list-style: none;
+    background-color: #e9f7f1;
+    padding: 20px;
+    max-width: 844px;
+    margin: 20px auto;
+    padding-left: 30px;
+    font-family: poppins2;
+}
+/* Designs the list numbering */
+#ul li a{
+    color: skyblue;
+}
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: poppins2;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px ;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 3px 4px;
+    text-decoration: none;
+    display:grid;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: skyblue;
+    border-radius: 10px ;
+    box-shadow:1px 1px 1px 1px #e5e5e5;
+    height: 42px;
+}
+/* Change the colour of the link */
+a:link{
+    color: white;
+    text-decoration: none;
+}
+/* Change the colour of the link */
+a:visited{
+    color:white;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+/* Style the search field */
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 25px;
+    float: left;
+    width: 40%;
+    background: #f1f1f1;
+    position: relative;
+    left: 350px;
+    top: 76px;
+    z-index: 50;
+}
+/* Style the submit button */
+form.example button {
+    float:left;
+    width: 10%;
+    padding: 10px;
+    background:skyblue;
+    color: black;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 25px;
+    border-left: none;
+    cursor: pointer;
+    position: relative;
+    left: 350px;
+    top: 76px;
+    z-index: 50;
+/* Change submit button colour when hover */
+}
+form.example button:hover {
+    background:skyblue;
+}
+/* Clear floats */
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
