@@ -1,0 +1,125 @@
+Languages.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Geeks</title>
+    <link rel="stylesheet" href="Computer Geeks.css">
+
+</head>
+<body>
+    <div class="top">
+        <div id="toplogo"><a href="Computer Geeks.html"><img src="data:image/png;base64,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" alt="logo" height="60"></a></div>
+        <center><h1><a href="Computer Geeks.html"><span id="hd1">Computer </span> <span id="hd2">Geeks</span></a></h1></center>
+        <div id="toptext">
+            <nav id="heading111">
+                <div class="dropdown">
+                    <button class="dropbtn"><b>Practice</b></button>
+                    <div class="dropdown-content">
+                      <a href="#">Problem of the day</a>
+                      <a href="#">Events</a>
+                      <a href="#">Weekly contests</a>
+                      <a href="#">School contests</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn"><b>Courses</b></button>
+                    <div class="dropdown-content">
+                      <a href="#">Interview preparation</a>
+                      <a href="#">For working professionals</a>
+                      <a href="#">For students</a>
+                      <a href="#">School courses</a>
+                      <a href="#">All courses</a>
+                    </div>
+                </div><div class="dropdown">
+                    <button class="dropbtn"><b>Contest</b></button>
+                    <div class="dropdown-content">
+                      <a href="#">All India Mock series</a>
+                      <a href="#">Weekly interview series</a>
+                      <a href="#">Coding tournament</a>
+                      <a href="#">Hiring challenge</a>
+                    </div>
+                </div><div class="dropdown">
+                    <button class="dropbtn"><b>Code Library</b></button>
+                </div><div class="dropdown">
+                    <button class="dropbtn"><b>Contact Us</b></button>
+                </div>
+            </nav>
+        </div>
+        <div id="topbutton"><a href="form.html"><input id="button" type="button" value="Login / Sign Up"></a></div>
+    </div>
+    <div class="thirdmain">
+        <br><br><br>
+        <h1 class="h1">TOP  RATED <a> LANGUAGES</a></h1>
+        <ul id="ul"><h3>
+            <li><a>1 </a> Python</li>
+            <li><a>2 </a> C</li>
+            <li><a>3 </a> C++</li>
+            <li><a>4 </a> HTML</li>
+            <li><a>5 </a> Java</li>
+            <li><a>6 </a> JavaScript</li>
+            <li><a>7 </a> CSS</li>
+            <li><a>8 </a> SQL</li>
+            <li><a>9 </a> NoSQL</li>
+            <li><a>10 </a> C#</li>
+            <li><a>11 </a> Rust</li>
+            <li><a>12 </a> Perl</li>
+            <li><a>13 </a> Go</li>
+            <li><a>14 </a> PHP</li>
+            <li><a>15 </a> Swift</li>
+        </h3></ul>
+        <div class="button3"><input id="button2" type="button" value="See More"></div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div class="lastmain">
+        <div class="info">
+            <div id="infotxt">
+                <img id="infoimg" src="./image/dark_logo.svg" alt="">
+                <p id="infopara"><center><h1><span id="hd1">Computer </span> <span id="hd2">Geeks</span></h1></center></p> 
+            </div>
+            <div id="infofirst">
+                <ul>
+                    <li id="heading111">COMPUTER GEEKS</li>
+                    <li id="data">Questions</li>
+                    <li id="data">Help</li>
+                </ul>
+            </div>
+            <div id="infofirst">
+                <ul>
+                    <li id="heading111">PRODUCTS</li>
+                    <li id="data">Teams</li>
+                    <li id="data">Advertising</li>
+                    <li id="data">Collectives</li>
+                    <li id="data">Talent</li>
+                </ul>
+            </div>
+            
+
+            <div id="infosecond">
+                <ul>
+                    <li id="heading111">COMPANY</li>
+                    <li id="data">About</li>
+                    <li id="data">Work Here</li>
+                    <li id="data">Legal</li>
+                    <li id="data">Privacy Policy</li>
+                    <li id="data">Terms of Service</li>
+                    <li id="data">Contact Us</li>
+                </ul>
+            </div>
+
+            <div id="infothird">
+                <ul>
+                    <li id="heading111">STAY IN TOUCH</li>
+                    <li id="data"><nav><a href="https://www.facebook.com/"><img src="https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688_1280.png" alt="" height="15px"> Facebook</a></nav></li>
+                    <li id="data"><nav><a href="https://www.twitter.com/"><img src="data:image/png;base64,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" alt="" height="15px"> Twitter</a></nav></li>
+                    <li id="data"><nav><a href="https://www.instagram.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="" height="15px"> Instagram</a></nav></li>
+                    <li id="data"><nav><a href="https://www.linkedin.com/"><img src="https://www.freeiconspng.com/thumbs/linkedin-logo-png/linkedin-logo-3.png" alt="" height="15px"> Linkedln</a></nav></li>
+                    <li id="data"><nav><a href="https://www.youtube.com/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png" alt="" height="15px"> Youtube</a></nav></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
